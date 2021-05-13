@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Frontend Mentor | Pricing component with toggle</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+  <header>
+    <h1 class="header-h1">
+    Our Pricing
+    </h1>
+    <div class="header-toggle">
+      <span class="header-time">Annually</span>
+      <label class="switch">
+        <input type="checkbox" class="checkbox" checked>
+        <span class="slider round"></span>
+      </label>
+      <span class="header-time">Monthly</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="card left">
+      <div class="card-title">
+        <h2 class="card-h2">Basic</h2>
+        <p class="card-price monthly">&dollar;19.99</p>
+        <p class="card-price anually">&dollar;199.99</p>
+      </div>
+      <p class="card-p storage">500 GB Storage</p>
+      <p class="card-p">2 Users Allowed</p>
+      <p class="card-p">Send up to 3 GB</p>
+      <button class="card-btn left">Learn More</button>
+    </div>
+
+    <div class="card middle">
+      <div class="card-title">
+        <h2 class="card-h2">Professional</h2>
+        <p class="card-price monthly">&dollar;24.99</p>
+        <p class="card-price anually">&dollar;249.99</p>
+      </div>
+      
+      <p class="card-p storage">1 TB Storage</p>
+      <p class="card-p">5 Users Allowed</p>
+      <p class="card-p">Send up to 10 GB</p>
+      <button class="card-btn middle">Learn More</button>
+    </div>
+
+    <div class="card right">
+      <div class="card-title">
+        <h2 class="card-h2">Master</h2>
+        <p class="card-price monthly">&dollar;39.99</p>
+        <p class="card-price anually">&dollar;399.99</p>
+      </div>
+
+      <p class="card-p storage">2 TB Storage</p>
+      <p class="card-p">10 Users Allowed</p>
+      <p class="card-p">Send up to 20 GB</p>
+      <button class="card-btn right">Learn More</button>
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Renato-Lima-Neves/pricing-component-with-toggle-master.git">Renato Lima Neves</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
